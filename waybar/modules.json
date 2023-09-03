@@ -1,0 +1,178 @@
+{
+    // Workspaces
+    "wlr/workspaces" : {
+        "on-click": "activate",
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+			"urgent": "",
+			"active": "",
+			"default": "",
+            "sort-by-number": true
+        }
+    },
+
+    // Taskbar
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 18,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "ignore-list": [
+           "Kitty"
+        ],
+        "app_ids-mapping": {
+            "firefoxdeveloperedition": "firefox-developer-edition"
+        },
+        "rewrite": {
+            "Firefox Web Browser": "Firefox",
+            "Foot Server": "Terminal"
+        }
+    },
+
+    // Hyprland Window
+    "hyprland/window": {
+        "rewrite": {
+            "(.*) - Firefox": "$1",
+            "(.*) - Chromium": "$1",
+            "(.*) - Firefox Search": "$1",
+            "(.*) - Slack": "$1"
+        },
+        "separate-outputs": true
+    },
+
+    // Firefox Launcher
+    "custom/firefox": {
+        "format": "",
+        "on-click": "firefox",
+        "tooltip": false
+    },
+
+    // ChatGPT Launcher
+    "custom/chatgpt": {
+        "format": "",
+        "on-click": "firefox --app=https://chat.openai.com",
+        "tooltip": false
+    },
+
+    // Rofi Calculator
+    "custom/calculator": {
+        "format": "",
+        "on-click": "~/.config/scripts/calculator.sh",
+        "tooltip": false
+    },
+
+    // Looking Glass Launcher
+    "custom/lookingglass": {
+        "format": "",
+        "on-click": "~/.config/scripts/looking-glass.sh",
+        "tooltip": false
+    },
+
+    // Rofi Application Launcher
+    "custom/appmenu": {
+        "format": "Apps",
+        "on-click": "~/.config/scripts/applauncher.sh",
+        "tooltip": false
+    },
+
+    // Power Menu
+    "custom/exit": {
+        "format": "",
+        "on-click": "wlogout",
+        "tooltip": false
+    },
+
+    // Keyboard State
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name} {icon}",
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
+
+    // System tray
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+
+    // Clock
+    "clock": {
+        "timezone": "Europe/Belgrade",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+
+    // CPU
+    "cpu": {
+        "format": "/ C {usage}% "
+    },
+
+    // Memory
+    "memory": {
+        "format": "/ M {}% "
+    },
+
+    // Harddisc space used
+    "disk": {
+        "interval": 30,
+        "format": "   {percentage_used}% ",
+        "path": "/"
+    }, 
+    
+    // Network
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "   {signalStrength}%",
+        "format-ethernet": "  {ipaddr}",
+        "format-disconnected": "", //An empty format will hide the module.
+        "tooltip-format": " {ifname} via {gwaddri}",
+        "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 50
+    },
+
+    // Pulseaudio
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", " ", " "]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    // Bluetooth
+    "bluetooth": {
+        "format-disabled": "",
+        "format-off": "",
+        "interval": 30,
+        "on-click": "blueman-manager"
+    },
+
+    // Other
+    "user": {
+        "format": "{user}",
+        "interval": 60,
+        "icon": false,
+    }
+}
+

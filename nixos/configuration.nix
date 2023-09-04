@@ -14,6 +14,14 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.settings = {
+    General = {
+      Enable = "Source,Sink,Media,Socket";
+    };
+  };  
+  hardware.keyboard.zsa.enable = true;
+
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -36,7 +44,16 @@
     xwayland.enable = true;
     xwayland.hidpi = true;
   };
-  programs.zsh.enable = true;
+  programs.zsh = {
+    enable = true;
+     ohMyZsh = {
+      enable = true;
+      plugins = [ "git" "thefuck" "ripgrep" "zsh-autosuggestions" "zsh-syntax-highlighting"
+        "autojump" 
+      ];
+      theme = "robbyrussell";
+    };
+  };
   programs.thunar.enable = true;
   nixpkgs.config.permittedInsecurePackages = [
     "python-2.7.18.6"
@@ -56,12 +73,22 @@
     isNormalUser = true;
     description = "Menko";
     extraGroups = [ "networkmanager" "docker" "wheel" "video" "kvm"];
-    packages = with pkgs; [helix];
+    packages = with pkgs; [
+    helix
+    thefuck
+    ripgrep
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    autojump
+    ];
   };
+  users.defaultUserShell = pkgs.zsh;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   nixpkgs.config.allowInsecure = true;
+
+  environment.shells = with pkgs; [zsh];
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget

@@ -38,8 +38,8 @@ target = "~/.config/hypr/colors-hyprland.conf"
 #
 [[entry]]
 template = "waybarrc"
-target = "~/.config/waybar/colors-waybar.conf"
+target = "~/.config/waybar/colors-waybar.css"
 #
-# [[entry]]
-# template = "glava_bars"
-# target = "~/.config/glava/bars.glsl"
+[[entry]]
+template = "rofirc"
+target = "~/.config/rofi/colors-rofi.rasi"

@@ -5,5 +5,6 @@ let
 in {
   environment.systemPackages = with pkgs; [
     unstable.wallust
+    unstable.helix
   ];
 }

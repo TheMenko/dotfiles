@@ -1,0 +1,36 @@
+{
+	"C:M43IAD6G0": [
+		{
+			"uid": "T:R3E7H8ORK",
+			"index": 1,
+			"selected": false,
+			"type": "query",
+			"database": "postgres",
+			"schema": null,
+			"content": "select * from optimism_transactions",
+			"autorun": false
+		},
+		{
+			"uid": "T:1WBQ09DYM",
+			"index": null,
+			"selected": false,
+			"type": "data",
+			"database": "database",
+			"schema": "public",
+			"elementName": "optimism_transactions",
+			"elementType": "table",
+			"autorun": false
+		},
+		{
+			"uid": "T:WU7NDW2NG",
+			"index": null,
+			"selected": false,
+			"type": "temp-data",
+			"database": "database",
+			"schema": "public",
+			"elementName": "ethereum_transactions",
+			"elementType": "table",
+			"autorun": false
+		}
+	]
+}

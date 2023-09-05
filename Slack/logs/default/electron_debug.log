@@ -1,0 +1,458 @@
+[170547:0904/110916.726174:WARNING:wayland_object.cc(143)] Binding to zwp_linux_dmabuf_v1 version 3 but version 4 is available.
+[170547:0904/110916.726484:WARNING:wayland_object.cc(143)] Binding to wl_seat version 5 but version 8 is available.
+[170547:0904/110916.726510:WARNING:wayland_object.cc(143)] Binding to zwp_pointer_gestures_v1 version 1 but version 3 is available.
+[170547:0904/110916.726518:WARNING:wayland_object.cc(143)] Binding to wl_output version 2 but version 4 is available.
+[170547:0904/110916.851969:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[170547:0904/110916.892697:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[170547:0904/110916.892709:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[170547:0904/110916.892712:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[170547:0904/110916.892722:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[170547:0904/110916.892725:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[170547:0904/110916.892727:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[170547:0904/110917.024083:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[170547:0904/110919.354416:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[170547:0904/110919.354542:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[170547:0904/110923.736078:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/111426.080515:WARNING:wayland_object.cc(143)] Binding to zwp_linux_dmabuf_v1 version 3 but version 4 is available.
+[2002:0904/111426.097971:WARNING:wayland_object.cc(143)] Binding to wl_seat version 5 but version 8 is available.
+[2002:0904/111426.098001:WARNING:wayland_object.cc(143)] Binding to zwp_pointer_gestures_v1 version 1 but version 3 is available.
+[2002:0904/111426.098012:WARNING:wayland_object.cc(143)] Binding to wl_output version 2 but version 4 is available.
+[2002:0904/111426.252327:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[2002:0904/111426.292078:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2002:0904/111426.292089:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2002:0904/111426.292092:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2002:0904/111426.292106:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2002:0904/111426.292108:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2002:0904/111426.292111:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2002:0904/111426.394447:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/111427.309483:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[2002:0904/111427.309607:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[2002:0904/111456.413504:WARNING:cursor_loader.cc(119)] Failed to load a platform cursor of type kHand
+[2002:0904/111542.294035:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[2002:0904/111542.294808:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2002:0904/111542.294816:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2002:0904/111542.294819:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2002:0904/111542.294825:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2002:0904/111542.294827:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2002:0904/111542.294829:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2002:0904/111553.946276:WARNING:cursor_loader.cc(119)] Failed to load a platform cursor of type kColumnResize
+[2002:0904/120827.953315:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/120827.953383:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/120827.959514:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/120827.959554:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/120828.236831:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/131719.437019:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/131719.437145:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/131807.915207:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/131807.915299:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/131808.444634:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/131808.444683:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/131848.266543:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/131848.266637:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/131848.942252:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/131848.942301:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/132537.591699:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/132537.591852:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/132537.598402:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/132537.598451:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/132537.674129:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/132543.894463:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/132543.894539:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135043.212933:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/135043.752424:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135043.752483:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135057.987947:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135057.988004:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135309.527841:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/135309.951270:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135309.951400:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135314.570253:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135314.570365:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135330.115671:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/135330.151234:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135330.151293:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135446.025971:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135446.026188:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135448.975936:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135448.976017:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135454.365483:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/135454.365536:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/144904.884296:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/144904.884542:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/144904.962641:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/144913.632040:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/144913.632100:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/145028.174432:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/145028.605163:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/145028.605228:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/145029.371215:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/145029.371276:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/151119.989330:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/151119.989421:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/151120.055114:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/152423.150847:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/152423.150919:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/153342.345702:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/153342.791108:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/153342.791192:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/153354.714240:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/153354.714356:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/154027.126886:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/154027.160512:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/154027.160644:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/154113.040180:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/154113.040361:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/154945.879314:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/154945.967002:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/154945.967106:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155000.608004:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155000.608061:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155145.817560:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/155146.247889:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155146.247945:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155146.965590:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155146.965650:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155337.953179:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155337.953239:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155338.044526:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/155351.002720:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/155352.752962:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155352.753064:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155403.373463:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155403.373556:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155403.433428:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/155405.691669:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155405.691726:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155538.420789:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155538.420850:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155538.507102:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/155919.792406:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/155919.792511:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/161407.906053:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/161407.906108:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/161407.981511:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2002:0904/165601.317137:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/165601.317230:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/180739.323075:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2002:0904/180739.323130:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/184927.783241:WARNING:wayland_object.cc(143)] Binding to zwp_linux_dmabuf_v1 version 3 but version 4 is available.
+[2202:0904/184927.822442:WARNING:wayland_object.cc(143)] Binding to wl_seat version 5 but version 8 is available.
+[2202:0904/184927.822475:WARNING:wayland_object.cc(143)] Binding to zwp_pointer_gestures_v1 version 1 but version 3 is available.
+[2202:0904/184927.822486:WARNING:wayland_object.cc(143)] Binding to wl_output version 2 but version 4 is available.
+[2202:0904/184928.069953:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[2202:0904/184928.108488:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2202:0904/184928.108501:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2202:0904/184928.108505:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2202:0904/184928.108510:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2202:0904/184928.108513:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2202:0904/184928.108516:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2202:0904/184928.237455:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/184928.502260:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[2202:0904/184928.502406:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[2202:0904/184932.475747:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/184932.475823:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/185026.595925:WARNING:cursor_loader.cc(119)] Failed to load a platform cursor of type kHand
+[2202:0904/185026.950363:WARNING:cursor_loader.cc(119)] Failed to load a platform cursor of type kColumnResize
+[2202:0904/185028.080892:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/185028.081072:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/193846.540235:WARNING:cursor_loader.cc(119)] Failed to load a platform cursor of type kZoomIn
+[2202:0904/201851.133622:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/201851.133727:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/201851.221688:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/201909.461031:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/201909.461124:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202032.305643:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202032.305737:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202032.823257:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202032.823354:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202228.366658:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202228.366742:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202228.887691:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202228.887746:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202248.587610:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202248.587667:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202249.106892:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202249.106962:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202316.752968:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202316.753021:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202317.274795:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202317.274844:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202507.838185:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202507.838260:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202508.356095:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202508.356145:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202531.345954:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202531.346025:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202531.432467:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/202541.256502:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202541.256590:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202643.692053:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202643.692121:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202644.210002:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/202644.210053:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203333.825585:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/203334.640075:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203334.640126:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203406.624529:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/203410.311544:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203410.311599:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203458.857608:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203458.857682:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203459.380256:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203459.380311:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203759.172450:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203759.172508:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203759.700149:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203759.700203:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203820.985608:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203820.985736:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203821.509885:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203821.509938:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203842.661654:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203842.661829:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203843.188768:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203843.188819:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203916.909449:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203916.909508:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203917.436001:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/203917.436060:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204148.916938:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204148.916994:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204156.587765:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204156.587848:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204212.504076:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204212.504155:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204213.025530:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204213.025582:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204233.031869:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2202:0904/204233.031892:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2202:0904/204233.031895:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2202:0904/204233.031900:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2202:0904/204233.031902:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2202:0904/204233.031904:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2843:0904/204245.241417:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 11
+[2843:0904/204245.257278:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 15
+[2843:0904/204245.275927:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 19
+[2843:0904/204245.296185:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 9
+[2202:0904/204312.281198:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204312.281278:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204312.803407:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204312.803462:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204458.523073:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204458.523147:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204459.044603:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204459.044653:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204528.901457:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204528.901517:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204529.421868:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204529.421927:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204535.528611:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204535.528688:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204536.049815:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204536.049886:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204549.518631:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204549.518795:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204550.041720:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204550.041842:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204652.378428:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/204653.095049:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204653.095182:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204751.466251:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/204751.466322:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205234.096147:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/205234.635551:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205234.635612:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205238.794181:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205238.794419:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205248.155570:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205248.155629:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205341.088774:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205341.088834:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205508.438163:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/205509.426243:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205509.426316:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205513.400656:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205513.400723:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205549.130916:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205549.130977:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205549.215064:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/205603.542054:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205603.542144:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205647.414472:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/205647.828999:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205647.829120:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205652.363857:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205652.363998:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205818.351734:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/205818.989553:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/205818.989665:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210105.924481:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210105.924540:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210117.456359:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210117.456448:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210117.975310:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210117.975384:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210123.209509:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210123.209586:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210123.731314:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210123.731380:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210138.642619:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210138.642676:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210139.165007:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210139.165086:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210154.696413:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210154.696496:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210155.222233:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210155.222299:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210208.727551:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210208.727629:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210209.250800:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210209.250872:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2843:0904/210259.878962:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 3
+[2202:0904/210556.932665:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210556.932733:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210601.889797:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210601.889897:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210602.392198:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210602.392259:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210602.909638:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210602.909697:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210645.731985:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210645.732163:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2843:0904/210651.429385:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 33
+[2843:0904/210651.477721:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 37
+[2843:0904/210655.058103:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 41
+[2843:0904/210655.060832:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 43
+[2843:0904/210655.066087:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 45
+[2843:0904/210655.080004:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 47
+[2843:0904/210655.090794:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 49
+[2843:0904/210655.302776:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 55
+[2843:0904/210704.256088:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 157
+[2843:0904/210704.281518:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 159
+[2843:0904/210704.301909:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 163
+[2843:0904/210707.662149:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 169
+[2843:0904/210709.857850:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 257
+[2843:0904/210709.915247:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 259
+[2202:0904/210731.586111:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210731.586207:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2843:0904/210800.219228:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 271
+[2843:0904/210800.237436:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 273
+[2843:0904/210800.256819:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 275
+[2202:0904/210906.495903:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210906.495983:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210906.571348:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/210922.115146:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/210922.115214:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/211005.812257:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/211005.812320:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/211006.335228:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/211006.335300:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/211115.437789:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/211115.437865:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/211115.515975:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/211142.636790:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/211538.154592:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/211538.154710:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2843:0904/211555.064790:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 9
+[2843:0904/211555.280519:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 15
+[2843:0904/212226.193202:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1
+[2202:0904/212359.163763:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/212400.195321:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212400.195387:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212406.713963:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212406.714065:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212938.721465:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212938.721598:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212938.724211:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/212944.808795:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212944.808954:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212947.044610:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212947.044715:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212947.567134:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/212947.567338:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213006.567646:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213006.567704:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213007.088183:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213007.088295:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213015.766754:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213015.766818:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213016.288108:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213016.288209:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213108.391715:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213108.391778:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213108.916697:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213108.916807:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213124.074106:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213124.074177:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213124.601011:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213124.601108:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213145.324560:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213145.324665:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213145.852840:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213145.852920:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213151.354994:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213151.355062:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213151.878585:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213151.878716:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213159.646704:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213159.646775:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213159.728589:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/213301.694860:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213301.694924:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213411.254099:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213411.254185:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213411.776557:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/213411.776654:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2843:0904/214930.682904:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 3
+[2843:0904/214930.699508:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 7
+[2843:0904/214930.716246:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 9
+[2843:0904/214944.337030:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 11
+[2843:0904/214944.338559:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 13
+[2843:0904/214944.353931:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 15
+[2843:0904/214944.375578:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 17
+[2202:0904/215153.053751:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215153.053812:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215153.130935:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/215300.656461:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[2202:0904/215313.475029:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215313.475123:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215316.960619:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215316.960687:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215317.482177:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215317.482277:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215422.904526:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215422.904600:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215425.604255:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215425.604413:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215508.068476:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215508.068555:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215517.690639:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/215517.690752:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/220100.645674:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/220100.645822:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/221608.416369:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/221608.416442:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2202:0904/225041.735763:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2202:0904/225041.735779:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2202:0904/225041.735782:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2202:0904/225041.735787:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[2202:0904/225041.735789:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[2202:0904/225041.735791:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[2843:0904/233002.980057:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 91
+[2843:0904/233002.991969:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 93
+[2843:0904/233003.002087:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 95
+[2843:0904/233009.208438:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 97
+[5178:0905/111350.673079:WARNING:wayland_object.cc(143)] Binding to zwp_linux_dmabuf_v1 version 3 but version 4 is available.
+[5178:0905/111350.716923:WARNING:wayland_object.cc(143)] Binding to wl_seat version 5 but version 8 is available.
+[5178:0905/111350.716963:WARNING:wayland_object.cc(143)] Binding to zwp_pointer_gestures_v1 version 1 but version 3 is available.
+[5178:0905/111350.716974:WARNING:wayland_object.cc(143)] Binding to wl_output version 2 but version 4 is available.
+[5178:0905/111351.010443:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[5178:0905/111351.089434:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/111351.089445:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/111351.089448:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/111351.089453:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/111351.089456:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/111351.089458:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/111351.151896:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/111351.461194:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[5178:0905/111351.461333:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!

@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 {
   imports =
     [ # Include the results of the hardware scan.
@@ -21,6 +21,12 @@
     };
   };  
   hardware.keyboard.zsa.enable = true;
+  hardware.opengl.driSupport32Bit = true;
+  hardware.opengl.enable = true;
+  hardware.pulseaudio.support32Bit = true;
+  
+  # enable flakes
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -48,7 +54,7 @@
     enable = true;
      ohMyZsh = {
       enable = true;
-      plugins = [ "git" "thefuck" "ripgrep" "zsh-autosuggestions" "zsh-syntax-highlighting"
+      plugins = [ "git" "thefuck" "ripgrep"
         "autojump" 
       ];
       theme = "robbyrussell";
@@ -66,20 +72,25 @@
   
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";
+    OPENSSL_DIR = pkgs.openssl.dev;
+    PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
+    XDG_CURRENT_DESKTOP="Hyprland";
+    QT_QPA_PLATFORM="wayland";
+    XDG_SESSION_TYPE="wayland";
+    XDG_SESSION_DESKTOP="Hyprland";
+    MOZ_ENABLE_WAYLAND="1";
   };
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.menko = {
     isNormalUser = true;
     description = "Menko";
-    extraGroups = [ "networkmanager" "docker" "wheel" "video" "kvm"];
+    extraGroups = [ "networkmanager" "docker" "wheel" "video" "kvm" "audio"];
     packages = with pkgs; [
-    helix
     thefuck
     ripgrep
-    zsh-autosuggestions
-    zsh-syntax-highlighting
     autojump
+    vulkan-tools
     ];
   };
   users.defaultUserShell = pkgs.zsh;
@@ -90,6 +101,34 @@
 
   environment.shells = with pkgs; [zsh];
 
+  services.greetd = {
+    enable = true;
+  };
+  
+  programs.regreet = {
+    enable = true;
+    settings = {
+      commands = {
+        # The command used to reboot the system
+        reboot = [ "systemctl" "reboot" ];
+
+        # The command used to shut down the system
+        poweroff = [ "systemctl" "poweroff" ];
+      };
+    };
+  };
+  
+  services.xserver.displayManager.session = [
+    {
+      manage = "desktop";
+      name = "hyprland";
+      start = ''
+        ${lib.getExe pkgs.hyprland} &
+        waitPID=$!
+      '';
+    }
+  ];
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -97,14 +136,22 @@
     cargo
     clang
     cmake
+    dbeaver
+    (pkgs.discord.override {
+      # remove any overrides that you don't want
+      withOpenASAR = true;
+      withVencord = true;
+    })
     docker
     dunst
+    dbus
     easyeffects
     firefox-wayland
     flameshot
     fzf
     git
     grim
+    glib
     htop
     kitty
     killall
@@ -114,15 +161,20 @@
     looking-glass-client
     megasync
     meson
+    mold
     ninja
+    openssl
+    perl
     p7zip
     pavucontrol
     python2
     python3
     pywal
+    pkgconfig
     qemu_kvm
     qt5.qtwayland
     qt6.qtwayland
+    qt6.full
     ripgrep
     rofi-wayland
     rustup
@@ -140,9 +192,11 @@
     wlogout
     wlroots
     xwayland
+    xdg-utils
     ydotool
   ];
-  
+
+
   fonts.fontDir.enable = true;
   fonts.fonts = with pkgs; [
     liberation_ttf
@@ -197,12 +251,15 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "23.051"; # Did you read the comment?
+  system.stateVersion = "23.05"; # Did you read the comment?
   
   nixpkgs.overlays = [
     (self: super: {
-      waybar = super.waybar.overrideAttrs (oldAttrs: {
+        waybar = super.waybar.overrideAttrs (oldAttrs: {
         mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true"];
+      });
+        regreet = pkgs.greetd.regreet.overrideAttrs (final: prev: {
+        SESSION_DIRS = "${config.services.xserver.displayManager.sessionData.desktops}/share";
       });
     })
   ];

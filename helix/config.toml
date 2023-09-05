@@ -1,0 +1,26 @@
+theme = "adwaita-dark"
+
+[editor]
+line-number = "relative"
+auto-format = true
+auto-save = true
+idle-timeout = 0
+bufferline = "multiple"
+
+[editor.file-picker]
+hidden = false
+
+# [editor.cursor-shape]
+# insert = "bar"
+
+[keys.normal]
+C-s = ":w"
+C-p = "command_palette"
+
+[editor.indent-guides]
+render = true
+character = "▏" 
+skip-levels = 1
+
+[editor.lsp]
+display-inlay-hints = true

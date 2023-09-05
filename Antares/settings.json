@@ -1,0 +1,11 @@
+{
+	"allow_prerelease": false,
+	"__internal__": {
+		"migrations": {
+			"version": "0.7.16"
+		}
+	},
+	"cached_version": "0.7.16",
+	"application_theme": "dark",
+	"editor_theme": "ambiance"
+}

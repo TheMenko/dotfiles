@@ -38,6 +38,9 @@
             pkgs.thefuck
             pkgs.ripgrep
             pkgs.autojump
+            pkgs.direnv
+            pkgs.vscode-extensions.vadimcn.vscode-lldb
+            pkgs.zellij
     ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -69,6 +72,8 @@
     # EDITOR = "emacs";
   };
 
+  services.lorri.enable = true;
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 
@@ -78,6 +83,9 @@
         enableAutosuggestions = true;
         enableCompletion = true;
         enableSyntaxHighlighting = true;
+        initExtraBeforeCompInit = ''
+          eval "$(direnv hook zsh)"
+        '';
         oh-my-zsh = {
           enable = true;
           theme = "robbyrussell";

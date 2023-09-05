@@ -1,0 +1,12 @@
+{
+	"history": {
+		"C:M43IAD6G0": [
+			{
+				"uid": "H:YRAOOO9QC",
+				"sql": "select * from optimism_transactions",
+				"date": "2023-09-04T20:58:14.045Z",
+				"schema": null
+			}
+		]
+	}
+}

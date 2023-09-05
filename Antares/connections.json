@@ -1,0 +1,45 @@
+{
+	"connectionsOrder": [
+		{
+			"isFolder": false,
+			"uid": "C:M43IAD6G0",
+			"client": "pg",
+			"icon": null,
+			"name": null
+		}
+	],
+	"connections": [
+		{
+			"name": "Docker Postgres",
+			"client": "pg",
+			"host": "127.0.0.1",
+			"database": "postgres",
+			"databasePath": "",
+			"port": 5432,
+			"user": "postgres",
+			"password": "postgres",
+			"ask": false,
+			"readonly": false,
+			"uid": "C:M43IAD6G0",
+			"ssl": false,
+			"cert": "",
+			"key": "",
+			"ca": "",
+			"ciphers": "",
+			"untrustedConnection": false,
+			"ssh": false,
+			"sshHost": "",
+			"sshUser": "",
+			"sshPass": "",
+			"sshKey": "",
+			"sshPort": 22,
+			"pgConnString": ""
+		}
+	],
+	"lastConnections": [
+		{
+			"uid": "C:M43IAD6G0",
+			"time": 1693860292837
+		}
+	]
+}

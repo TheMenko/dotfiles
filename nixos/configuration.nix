@@ -24,7 +24,8 @@
   hardware.opengl.driSupport32Bit = true;
   hardware.opengl.enable = true;
   hardware.pulseaudio.support32Bit = true;
-  
+  hardware.opentabletdriver.enable = true;
+    
   # enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
@@ -183,6 +184,7 @@
     slurp
     steam
     swww
+    swappy
     swaylock
     unzip
     wally-cli

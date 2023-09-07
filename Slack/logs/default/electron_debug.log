@@ -456,3 +456,376 @@
 [5178:0905/111351.151896:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
 [5178:0905/111351.461194:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
 [5178:0905/111351.461333:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[5178:0905/115032.325064:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/115032.325142:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/115032.435603:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/115036.772762:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/115049.129551:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/115132.257666:WARNING:cursor_loader.cc(119)] Failed to load a platform cursor of type kHand
+[5178:0905/115134.644637:WARNING:cursor_loader.cc(119)] Failed to load a platform cursor of type kColumnResize
+[5178:0905/115135.754161:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/115135.754266:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/115837.462833:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/115837.462895:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/115837.996234:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/115837.996326:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/121632.169955:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/121632.170034:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/121736.299027:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/121736.299166:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/123201.797198:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/125047.695422:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/130413.005310:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130413.005437:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130431.511797:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130431.511895:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130459.189356:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130459.189449:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130659.676854:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130659.677001:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130704.528548:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130704.528698:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130730.991483:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/130731.322254:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130731.322326:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130742.729336:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130742.729532:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130849.350118:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130849.350294:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130856.508360:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130856.508548:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130947.641089:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130947.641229:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130948.311788:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/130948.311843:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/131033.132930:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/131033.132991:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/131039.323014:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/131039.323373:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/131128.054544:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/131128.385028:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/131128.385087:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/131813.730412:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/131832.158572:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/132123.354269:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/132140.219386:WARNING:cursor_loader.cc(119)] Failed to load a platform cursor of type kZoomIn
+[5178:0905/132209.836812:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/132430.392068:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/132459.439271:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/132509.449825:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/132523.891304:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132523.891450:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132821.892661:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/132822.776876:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132822.776934:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132837.802968:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132837.803106:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132837.873206:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/132840.458701:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132840.458814:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132841.433650:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132841.433710:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132848.665503:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132848.665698:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132849.203244:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132849.203385:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/132852.364382:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[5178:0905/132852.364404:WARNING:property.cc(144)] DaemonVersion: GetAndBlock: failed.
+[5178:0905/132852.364609:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[5178:0905/132852.364804:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[5178:0905/132853.055158:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/132853.055181:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/132853.055184:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/132853.055198:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/132853.055201:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/132853.055203:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/132853.072730:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/132853.072741:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/132853.072744:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/132853.072750:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/132853.072752:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/132853.072754:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/132934.865644:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/132934.865659:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/132934.865661:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/132934.865668:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/132934.865673:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/132934.865677:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/132934.866197:WARNING:xdg_activation.cc(92)] Another activation request is in progress!
+[5178:0905/132959.151593:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/132959.151612:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/132959.151615:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/132959.151626:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/132959.151629:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/132959.151631:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/133210.978411:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133240.939492:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133309.031626:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133321.442863:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133355.874429:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133403.347896:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133414.090999:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133416.760198:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133437.512332:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133448.255434:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133504.136593:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133515.013139:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133519.884236:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133533.429751:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133537.633510:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133559.786951:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133603.657199:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133635.886393:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133651.166910:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133654.970296:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133706.781058:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133714.721694:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133727.400001:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133739.677781:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133806.702465:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133856.414912:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133919.236141:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/133950.064220:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134002.742413:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134017.756042:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134026.163684:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134108.335351:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134120.947234:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134126.218698:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134145.702885:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134228.875212:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134233.946418:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134311.980487:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134342.274228:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134414.370665:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134426.248275:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134436.857805:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134443.463892:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134503.548803:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134522.566437:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134525.635871:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134543.852445:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134617.216256:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134650.113509:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134712.066982:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134718.139166:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134746.371059:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/134746.371135:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/134757.909874:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134802.188753:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134821.666104:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134926.659482:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134942.340837:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/134949.480992:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135005.362235:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135014.704257:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135030.185274:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135114.759026:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135121.298357:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135125.435352:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135150.324813:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135200.200586:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135211.411356:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135249.380087:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135252.182666:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135303.926589:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135307.663305:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135311.466680:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135314.069069:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135346.130680:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135351.302830:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135413.656327:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135451.423944:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135505.436674:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/135512.184032:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/135512.184233:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/140550.621864:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/140550.942373:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/140550.942445:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/140723.257247:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/140739.312437:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/140802.948279:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/140845.976489:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/141323.632230:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/141323.632297:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/142803.038922:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0905/142804.123623:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/142804.123764:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/142822.581282:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/142822.581551:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/144346.605137:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/144346.605222:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/144836.927843:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/144836.927917:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/145834.643335:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/145834.643393:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/160013.216273:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/160013.259586:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/160013.259593:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/160013.259604:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/160013.259607:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/160013.259615:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/160013.260066:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[5178:0905/160013.260085:WARNING:xdg_activation.cc(85)] Cannot activate a window because no active windows found!
+[5178:0905/160013.404864:WARNING:xdg_activation.cc(92)] Another activation request is in progress!
+[5178:0905/160013.406548:WARNING:xdg_activation.cc(92)] Another activation request is in progress!
+[5178:0905/161717.284261:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/161717.284417:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/162925.430590:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/162925.430648:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/181227.580903:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/181227.599144:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/181408.922564:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/181408.922654:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/201639.256502:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/201639.276306:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/201639.276312:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/201639.276319:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/201639.276322:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/201639.276325:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/202147.153050:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/202147.153263:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/205021.292039:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/205021.292147:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/221144.469324:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/221144.469345:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/221144.469348:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/221144.469353:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0905/221144.469355:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0905/221144.469357:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0905/221157.623032:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/221157.623151:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/221655.177261:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0905/221655.177419:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/090349.888836:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/090349.889071:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102522.480489:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102522.480553:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102522.486922:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102522.487045:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102522.981230:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102522.981549:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102800.978895:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102800.979060:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102801.490010:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/102801.490108:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/103026.490538:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/103026.490608:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/103057.734760:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/103057.734882:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/103444.064424:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/103444.369065:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/103444.369122:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/103506.290576:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/103506.290637:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104018.766112:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104018.766189:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104019.532958:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104019.533035:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104103.063090:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104103.063283:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104536.516701:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104536.516773:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104651.304159:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/104651.304253:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/105627.152816:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/105627.341555:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/105627.341615:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/105646.633490:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/105650.971319:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/105711.408598:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/110121.033146:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/110121.033285:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/110121.110235:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/110145.407770:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/110400.765086:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/110452.053302:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/111451.736616:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/114323.548561:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/120913.907194:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/120913.907468:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/121427.831452:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/121557.895001:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/122235.433000:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0906/122235.433023:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0906/122235.433026:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0906/122235.433031:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0906/122235.433033:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0906/122235.433035:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0906/122350.866925:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122350.867079:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122713.560579:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122713.560646:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122714.075245:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122714.075354:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122801.590301:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122801.590377:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122802.118658:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122802.118796:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122853.753592:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122853.753688:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122854.295228:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/122854.295301:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/133413.553764:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/133413.553829:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/133413.561501:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/133413.561621:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/133414.055225:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/133414.055468:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/143924.018561:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/143924.018655:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/143924.560080:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/143924.560176:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/144125.539453:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/144125.539519:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/144126.075325:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/144126.075393:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/155004.080081:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/155004.080153:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/155004.156397:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/155026.849827:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/155026.849906:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/163527.201234:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/163527.201306:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/163527.278511:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0906/173056.071357:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/173056.071427:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/173155.755733:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/173155.755806:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/173156.282245:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/173156.282406:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/174222.814341:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/174222.814450:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/185909.880772:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/185909.880862:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[5178:0906/214337.547498:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/085718.513818:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/085850.358088:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/112359.198754:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/113902.901915:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/114103.345966:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/114118.126232:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/114232.266167:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/141919.662409:WARNING:text_input_manager.cc(476)] The text cannot fully cover range (selection's end point exceeds text length).
+[5178:0907/144424.996222:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0907/144424.996240:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0907/144424.996245:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0907/144424.996252:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0907/144424.996255:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0907/144424.996258:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0907/155127.096720:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/160453.530227:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/160743.518058:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/163406.933484:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/164112.607523:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/164245.549480:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0907/164245.549494:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0907/164245.549498:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0907/164245.549502:WARNING:wayland_surface.cc(130)] Server doesn't support zcr_alpha_compositing_v1.
+[5178:0907/164245.549505:WARNING:wayland_surface.cc(141)] Server doesn't support overlay_prioritizer.
+[5178:0907/164245.549507:WARNING:wayland_surface.cc(151)] Server doesn't support surface_augmenter.
+[5178:0907/164409.666863:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/164734.392779:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/164901.665895:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/165950.188600:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused
+[5178:0907/171903.956446:WARNING:wayland_screen.cc(405)] Cannot inhibit going idle when no window is focused

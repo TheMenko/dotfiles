@@ -21,7 +21,7 @@
         "on-click": "activate",
         "on-click-middle": "close",
         "ignore-list": [
-           "Kitty"
+           "kitty"
         ],
         "app_ids-mapping": {
             "firefoxdeveloperedition": "firefox-developer-edition"
@@ -53,7 +53,7 @@
     // ChatGPT Launcher
     "custom/chatgpt": {
         "format": "",
-        "on-click": "firefox --app=https://chat.openai.com",
+        "on-click": "firefox -P app https://chat.openai.com",
         "tooltip": false
     },
 

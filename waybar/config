@@ -32,7 +32,8 @@
         "group/hardware",
         "custom/exit",
         "network",
-        "clock"
+        "clock",
+        "tray"
     ],
 
     // Group Quicklinks

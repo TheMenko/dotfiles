@@ -7,28 +7,17 @@
 			"type": "query",
 			"database": "postgres",
 			"schema": null,
-			"content": "select * from optimism_transactions",
+			"content": "select count(effective_gas_price) from optimism_transactions",
 			"autorun": false
 		},
 		{
-			"uid": "T:1WBQ09DYM",
-			"index": null,
-			"selected": false,
-			"type": "data",
-			"database": "database",
-			"schema": "public",
-			"elementName": "optimism_transactions",
-			"elementType": "table",
-			"autorun": false
-		},
-		{
-			"uid": "T:WU7NDW2NG",
+			"uid": "T:CJ9JCACVC",
 			"index": null,
 			"selected": false,
 			"type": "temp-data",
 			"database": "database",
 			"schema": "public",
-			"elementName": "ethereum_transactions",
+			"elementName": "optimism_transactions",
 			"elementType": "table",
 			"autorun": false
 		}

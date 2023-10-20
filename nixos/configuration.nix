@@ -9,10 +9,13 @@
       ./hardware-configuration.nix
       # Include unstable
       ./unstable.nix
+      # Custom environment
+      # ./environment.nix
     ];
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+  boot.initrd.kernelModules = [ "amdgpu" ];
 
   hardware.bluetooth.enable = true;
   hardware.bluetooth.settings = {
@@ -23,12 +26,28 @@
   hardware.keyboard.zsa.enable = true;
   hardware.opengl.driSupport32Bit = true;
   hardware.opengl.enable = true;
-  hardware.pulseaudio.support32Bit = true;
   hardware.opentabletdriver.enable = true;
-    
+
+  boot.kernelParams = [ "radeon.cik_support=0" "amdgpu.cik_support=1" ];
+  hardware.opengl.driSupport = true;
+
+  hardware.opengl.extraPackages = with pkgs; [
+    amdvlk
+  ];
+  # For 32 bit applications 
+  # Only available on unstable
+  hardware.opengl.extraPackages32 = with pkgs; [
+    driversi686Linux.amdvlk
+  ];
+
+  # Force radv
+  environment.variables.AMD_VULKAN_ICD = "RADV";
+  
+  nix.settings.auto-optimise-store = true;  
   # enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-
+  security.polkit.enable = true;
+  
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -49,7 +68,6 @@
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
-    xwayland.hidpi = true;
   };
   programs.zsh = {
     enable = true;
@@ -62,6 +80,7 @@
     };
   };
   programs.thunar.enable = true;
+  programs.gamemode.enable = true;
   nixpkgs.config.permittedInsecurePackages = [
     "python-2.7.18.6"
   ];
@@ -70,7 +89,17 @@
     enable = true;
     setSocketVariable = true;
   };
-  
+  # Pipewire
+  sound.enable = true;
+  security.rtkit.enable = true;
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+  };
+  services.flatpak.enable = true;
+    
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";
     OPENSSL_DIR = pkgs.openssl.dev;
@@ -101,24 +130,9 @@
   nixpkgs.config.allowInsecure = true;
 
   environment.shells = with pkgs; [zsh];
-
-  services.greetd = {
-    enable = true;
-  };
   
-  programs.regreet = {
-    enable = true;
-    settings = {
-      commands = {
-        # The command used to reboot the system
-        reboot = [ "systemctl" "reboot" ];
-
-        # The command used to shut down the system
-        poweroff = [ "systemctl" "poweroff" ];
-      };
-    };
-  };
   
+  programs.ssh.startAgent = true;
   services.xserver.displayManager.session = [
     {
       manage = "desktop";
@@ -143,16 +157,17 @@
       withOpenASAR = true;
       withVencord = true;
     })
+    webcord-vencord
     docker
     dunst
     dbus
     easyeffects
     firefox-wayland
-    flameshot
     fzf
     git
     grim
     glib
+    gparted
     htop
     kitty
     killall
@@ -165,6 +180,7 @@
     mold
     ninja
     openssl
+    opentabletdriver
     perl
     p7zip
     pavucontrol
@@ -182,7 +198,6 @@
     sddm
     slack
     slurp
-    steam
     swww
     swappy
     swaylock
@@ -200,7 +215,7 @@
 
 
   fonts.fontDir.enable = true;
-  fonts.fonts = with pkgs; [
+  fonts.fonts= with pkgs; [
     liberation_ttf
     fira-code
     fira-code-symbols
@@ -215,18 +230,7 @@
     pkgs.xdg-desktop-portal-gtk 
   ];
 
-  # Pipewire
-  sound.enable = true;
-  security.rtkit.enable = true;
-  services.pipewire = {
-    enable = true;
-    alsa.enable = true;
-    alsa.support32Bit = true;
-    pulse.enable = true;
-    jack.enable = true;
-  };
   services.blueman.enable = true;
-
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
@@ -237,7 +241,6 @@
   # };
 
   # List services that you want to enable:
-
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
 
@@ -259,9 +262,6 @@
     (self: super: {
         waybar = super.waybar.overrideAttrs (oldAttrs: {
         mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true"];
-      });
-        regreet = pkgs.greetd.regreet.overrideAttrs (final: prev: {
-        SESSION_DIRS = "${config.services.xserver.displayManager.sessionData.desktops}/share";
       });
     })
   ];

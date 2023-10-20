@@ -21,14 +21,16 @@ if [ "$selected" ]; then
     echo "Changing theme..."
     wallpaper=~/wallpapers/"$selected"
 
+    echo $wallpaper;
+
     # Update wallpaper with pywal
     wallust "$wallpaper"
 
     # Get new theme
-    source "$HOME/.config/hypr/colors-hyprland.conf"
+    # source "$HOME/.config/hypr/colors-hyprland.conf"
 
     # Copy color file to waybar folder
-    cp "$selected" ~/.cache/current_wallpaper.jpg
+    cp "$wallpaper" ~/.cache/current_wallpaper.jpg
 
     newwall=$(echo "$wallpaper" | sed "s|$HOME/wallpapers/||g")
 

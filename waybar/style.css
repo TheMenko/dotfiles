@@ -12,7 +12,7 @@
 
 window#waybar {
     background-color: rgba(0,0,0,0.8);
-    border-bottom: 0px solid #ffffff;
+    border-bottom: 0px solid #FFFFFF;
     /* color: #FFFFFF; */
     background: transparent;
     transition-property: background-color;
@@ -134,8 +134,14 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #custom-firefox, #custom-slack, #custom-chatgpt, #custom-calculator, #custom-lookingglass {
-    margin-right:15px;
     font-size:20px;
+    background-color: @color11;
+    color: #FFFFFF;
+    border-radius: 14px;
+    padding: 0px 15px 0px 8px;
+    margin: 3px 20px 3px 10px;
+    opacity:0.8;
+    border:3px solid #FFFFFF;
 }
 
 /* -----------------------------------------------------
@@ -317,7 +323,15 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #tray {
-    background-color: #2980b9;
+    color: #ffffff;
+    background-color: @color11;
+    margin: 3px 15px 3px 0px;
+    padding: 2px 3px 1px 3px;
+    border-radius: 14px;
+    font-weight: normal;
+    font-style: normal;
+    opacity:0.8;
+    border: 3px solid #FFFFFF;
 }
 
 #tray > .passive {

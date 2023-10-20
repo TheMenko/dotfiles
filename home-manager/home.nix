@@ -41,6 +41,15 @@
             pkgs.direnv
             pkgs.vscode-extensions.vadimcn.vscode-lldb
             pkgs.zellij
+            pkgs.nodejs
+            pkgs.nodePackages.bash-language-server
+            pkgs.appimage-run
+            pkgs.stremio
+            pkgs.telegram-desktop
+            pkgs.cmus
+            pkgs.lorien
+            pkgs.obs-studio
+            pkgs.libsoup
     ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -73,22 +82,27 @@
   };
 
   services.lorri.enable = true;
-
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 
   programs = {
+      git = {
+        enable = true;
+        userName = import "/home/menko/.config/ignore/username.nix";
+        userEmail = import "/home/menko/.config/ignore/email.nix";
+      };
       zsh = {
         enable = true;
         enableAutosuggestions = true;
         enableCompletion = true;
         enableSyntaxHighlighting = true;
         initExtraBeforeCompInit = ''
-          eval "$(direnv hook zsh)"
+          eval "$(direnv hook zsh)";
+          SSH_AUTH_SOCK="/run/user/1000/ssh-agent.socket";
         '';
         oh-my-zsh = {
           enable = true;
-          theme = "robbyrussell";
+          theme = "amuse";
           plugins = [
             "git"
             "thefuck"

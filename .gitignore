@@ -2,3 +2,16 @@ discord/Cache
 helix/runtime
 Slack/*
 Antares
+docker
+cef_user_data
+dconf
+ignore
+Ganache/
+WebCord/
+cmus/
+discord/
+git/
+godot/
+lutris/
+menus/
+obs-studio/

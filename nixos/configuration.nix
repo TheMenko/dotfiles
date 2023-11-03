@@ -24,25 +24,11 @@
     };
   };  
   hardware.keyboard.zsa.enable = true;
-  hardware.opengl.driSupport32Bit = true;
-  hardware.opengl.enable = true;
   hardware.opentabletdriver.enable = true;
 
+  boot.kernelPackages = pkgs.linuxKernel.packages.linux_xanmod_stable; 
   boot.kernelParams = [ "radeon.cik_support=0" "amdgpu.cik_support=1" ];
-  hardware.opengl.driSupport = true;
 
-  hardware.opengl.extraPackages = with pkgs; [
-    amdvlk
-  ];
-  # For 32 bit applications 
-  # Only available on unstable
-  hardware.opengl.extraPackages32 = with pkgs; [
-    driversi686Linux.amdvlk
-  ];
-
-  # Force radv
-  environment.variables.AMD_VULKAN_ICD = "RADV";
-  
   nix.settings.auto-optimise-store = true;  
   # enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
@@ -64,11 +50,6 @@
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
 
-  # Install HyperLand window manager and enable xwayland
-  programs.hyprland = {
-    enable = true;
-    xwayland.enable = true;
-  };
   programs.zsh = {
     enable = true;
      ohMyZsh = {
@@ -83,6 +64,7 @@
   programs.gamemode.enable = true;
   nixpkgs.config.permittedInsecurePackages = [
     "python-2.7.18.6"
+    "electron-24.8.6"
   ];
   virtualisation.docker.enable = true;
   virtualisation.docker.rootless = {
@@ -117,10 +99,10 @@
     description = "Menko";
     extraGroups = [ "networkmanager" "docker" "wheel" "video" "kvm" "audio"];
     packages = with pkgs; [
-    thefuck
-    ripgrep
-    autojump
-    vulkan-tools
+      autojump
+      ripgrep
+      thefuck
+      vulkan-tools
     ];
   };
   users.defaultUserShell = pkgs.zsh;
@@ -133,43 +115,25 @@
   
   
   programs.ssh.startAgent = true;
-  services.xserver.displayManager.session = [
-    {
-      manage = "desktop";
-      name = "hyprland";
-      start = ''
-        ${lib.getExe pkgs.hyprland} &
-        waitPID=$!
-      '';
-    }
-  ];
-
+  
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-    cargo
     clang
     cmake
     dbeaver
-    (pkgs.discord.override {
-      # remove any overrides that you don't want
-      withOpenASAR = true;
-      withVencord = true;
-    })
-    webcord-vencord
+    dbus
     docker
     dunst
-    dbus
-    easyeffects
     firefox-wayland
     fzf
     git
-    grim
+    glfw
     glib
     gparted
+    grim
+    gtk3
     htop
-    kitty
     killall
     libnotify
     libsecret
@@ -181,26 +145,22 @@
     ninja
     openssl
     opentabletdriver
-    perl
     p7zip
     pavucontrol
-    python2
+    perl
+    pkg-config
     python3
     pywal
-    pkgconfig
     qemu_kvm
     qt5.qtwayland
-    qt6.qtwayland
     qt6.full
+    qt6.qtwayland
     ripgrep
     rofi-wayland
-    rustup
-    sddm
-    slack
     slurp
-    swww
     swappy
     swaylock
+    swww
     unzip
     wally-cli
     waybar
@@ -208,14 +168,12 @@
     wl-clipboard
     wlogout
     wlroots
-    xwayland
     xdg-utils
     ydotool
   ];
 
-
   fonts.fontDir.enable = true;
-  fonts.fonts= with pkgs; [
+  fonts.packages= with pkgs; [
     liberation_ttf
     fira-code
     fira-code-symbols
